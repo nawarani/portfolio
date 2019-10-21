@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Josefin+Sans|Merriweather|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Anika Nawar | Data Scientist</title>
+</head>
+<body>
+  <header>
+      <a href="#mainContent" class="skip-link">Skip to main content</a>
+      <nav>
+          <input type="checkbox" id="toggle" name="toggle">
+          <label for="toggle" class="menuBars"><i class="fas fa-bars"></i></label>
+          <ul class = "navUl">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="https://nawarani.github.io/blog/" target="_blank">Blog</a></li>
+              <li><a href="https://chocolaterating.herokuapp.com/">Projects</a></li>
+              <li><a href="#stack">Tech stack</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="wrapper">
+          <div class = "sticky_social">
+              <ul>
+                  <li>
+                      <a href="#"><i class="fas fa-home"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/anikanaw" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/nawarani" target="_blank"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/nawaranika/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+              </ul>
+          </div>
+          <div class="headerText">
+              <h1>Anika Nawar</h1>
+              <h2>Data Scientist</h2>
+          </div>
+      </div>
+      <!-- add down arrow for scroll -->
+  </header>
+  <main id = "mainContent">
+    <section id="about">
+        <div class="wrapper">
+            <img class = "about_img" src="assets/faceedit.jpg">
+            <div class="about_text">
+                <h2><span class="borderSpan">Ab</span>out <span>Me</span></h2>
+                <p>Hi! I'm Anika, a data scientist based in Toronto, Ontario. While working as a research assistant, I found my passion for numbers. Since entering the world of data science, I have been enjoying my time with data visualization and web scraping. I'm currently in the Data Science Immersive bootcamp at General Assembly Toronto, equipping myself with the latest tools and technology.</p>
+                <p>When I'm not coding (aka waiting for my model to train), you can catch me taking photos of the sky and singing along to my playlists! I also happen to be gifted at creating my own memes pepelaugh.</p>
+                <div class="buttonBox">
+                  <button><a href="#" class = "buttonlink">View CV</a></button>
+                  <button><a href="contact" class = "buttonlink">Contact me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id = "blog">
+    </section>
+    <section id = "projects">
+    </section> -->
+    <section id = "stack">
+        <div class="wrapper">
+            <h2><span class="borderSpan">Te</span>ch <span>Stack</span></h2>
+            <ul class = 'techlist'>
+                <li class = "stackitem"><img src="assets/python.png">python</li>
+                <li class = "stackitem"><img src="assets/pandas.png">pandas</li>
+                <li class = "stackitem"><img src="assets/np.png">numpy</li>
+                <li class = "stackitem"><img src="assets/sklearn.png">sci-kit learn</li>
+                <li class = "stackitem"><img src="assets/plt.png">matplotlib</li>
+                <li class = "stackitem"><img src="assets/altair.png">altair</li>
+                <li class = "stackitem"><img src="assets/scipy.png">sci-py stats</li>
+                <li class = "stackitem"><img src="assets/catboost.png">catboost</li>
+                <li class = "stackitem"><img src="assets/pymc.png">pymc3</li>
+                <li class = "stackitem"><img src="assets/spacy.png">spaCy</li>
+                <li class = "stackitem"><img src="assets/bs.png">beautiful soup</li>
+                <li class = "stackitem"><img src="assets/gazpacho.png">gazpacho</li>
+                <li class = "stackitem"><img src="assets/jupyter.png">jupyter</li>
+                <li class = "stackitem"><img src="assets/git.png">git</li>
+                <li class = "stackitem"><img src="assets/github.png">github</li>
+                <li class = "stackitem"><img src="assets/html.png">HTML5</li>
+                <li class = "stackitem"><img src="assets/css.png">CSS3</li>
+            </ul>
+        </div>
+    </section>
+    <section id = "contact">
+        <div class="footbox2">
+            <!-- add form here -->
+            <div class="fakeform">
+                <h2><span class="borderSpan">Co</span>ntact <span>Me</span></h2>
+                <form action="sendEmail.php" method="POST" class="myform" name="myForm">
+                    <label for="Yourname" class="visuallyhidden">Name</label>
+                    <input type="text" placeholder="Name*" id="Yourname" required>
+                    <label for="Youremail" class="visuallyhidden">E-mail</label>
+                    <input type="email" placeholder="E-mail*" id="Youremail" required>
+                    <label for="Yourmessage" class="visuallyhidden">Message</label>
+                    <textarea placeholder="Message" id="Yourmessage"></textarea>
+                    <div class="submitcentre">
+                        <input type="submit" value="Send Message" class="submitbutton">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="bottombar">
+      <div class="wrapper">
+        <p>Background courtesy of Unsplash</p>
+        <p>© Anika Nawar 2019</p>
+      </div>
+    </div>
+  </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $(function() {
+      $('a').smoothScroll();
+    });
+  </script>
+</body>
+</html>
